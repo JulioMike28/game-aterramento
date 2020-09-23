@@ -20207,12 +20207,10 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.Wait,
 	cr.plugins_.Text.prototype.acts.SetPos,
 	cr.plugins_.Button.prototype.acts.SetPos,
-	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
-	cr.system_object.prototype.acts.SetVar,
 	cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
+	cr.system_object.prototype.acts.SetVar,
 	cr.plugins_.Button.prototype.cnds.OnClicked,
 	cr.system_object.prototype.cnds.CompareVar,
-	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
 	cr.system_object.prototype.acts.GoToLayout,
 	cr.plugins_.Sprite.prototype.acts.SetAnimFrame,
 	cr.plugins_.Sprite.prototype.acts.SetSize,
@@ -20226,6 +20224,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Arr.prototype.exps.At,
 	cr.system_object.prototype.acts.AddVar,
 	cr.plugins_.Text.prototype.acts.SetVisible,
-	cr.plugins_.Sprite.prototype.acts.SetVisible
+	cr.plugins_.Sprite.prototype.acts.SetVisible,
+	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked
 ];};
 
