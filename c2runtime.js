@@ -20220,6 +20220,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.exps.Y,
 	cr.behaviors.DragnDrop.prototype.cnds.OnDrop,
 	cr.plugins_.Sprite.prototype.cnds.IsOverlapping,
+	cr.plugins_.Touch.prototype.cnds.OnDoubleTapGestureObject,
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Arr.prototype.exps.At,
 	cr.system_object.prototype.acts.AddVar,
